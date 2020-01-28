@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{4b29ad2c-4334-48b7-b270-e6bef0c301e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{b2da623b-d172-4ee7-8bec-7ce0e63c2be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{94311282-92b8-4a2e-b8c4-7df12d9f1aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{2d4f8456-8f5f-4364-8a90-2575e3203d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\gfx">
+      <UniqueIdentifier>{f60af4ba-50b8-4bb7-b96c-c802ecf65178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\gfx">
+      <UniqueIdentifier>{3d2673fd-b977-4e1f-8c69-c12fbc3e663d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utilities">
+      <UniqueIdentifier>{4f30299f-c7aa-48be-9efc-e28854a972bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities">
+      <UniqueIdentifier>{0f253cfa-b24d-4726-bf9d-353466241789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frogger">
+      <UniqueIdentifier>{693e61a8-48f8-427e-a8d4-429048580bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frogger\actors">
+      <UniqueIdentifier>{4d6ee9ca-e354-4433-9892-53d3fccb0e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\phisycs">
+      <UniqueIdentifier>{ed454fe1-6001-4773-8b6f-b367c35b3847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frogger">
+      <UniqueIdentifier>{bb0fca36-1062-44c8-9ea9-6cc7672649af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frogger\actors">
+      <UniqueIdentifier>{ea3f0779-66e4-40bd-aadd-a0c08b8c405e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\physics">
+      <UniqueIdentifier>{a7f98f9a-a79e-4819-a5f6-521c7a5b627f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets">
+      <UniqueIdentifier>{bc9716b2-caa1-4d80-9939-e3f4478b933c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\math\vector2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\gfx\image_info.cpp">
+      <Filter>Source Files\engine\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\gfx\sprite.cpp">
+      <Filter>Source Files\engine\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\draw_manager.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\game_clock.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\timer.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\texture_manager.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frogger\actors\player.cpp">
+      <Filter>Source Files\frogger\actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\update_manager.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\physics\bounding_box.cpp">
+      <Filter>Source Files\engine\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\physics\rigid_body.cpp">
+      <Filter>Source Files\engine\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\physics_manager.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frogger\actors\obstacle.cpp">
+      <Filter>Source Files\frogger\actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frogger\actors\bg_water.cpp">
+      <Filter>Source Files\frogger\actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frogger\actors\background.cpp">
+      <Filter>Source Files\frogger\actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frogger\map.cpp">
+      <Filter>Source Files\frogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\game_object.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\gfx\renderer.cpp">
+      <Filter>Source Files\engine\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\gfx\texture.cpp">
+      <Filter>Source Files\engine\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\input.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\event.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frogger\game.cpp">
+      <Filter>Source Files\frogger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\engine\game_object.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vector2.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\renderer.h">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\image_info.h">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\sprite.h">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\draw_manager.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\types.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\game_clock.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="khrplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vector4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vector3.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\timer.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game.h">
+      <Filter>Header Files\frogger</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frogger\actors\player.h">
+      <Filter>Header Files\frogger\actors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\texture_mananger.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\update_manager.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics\bounding_box.h">
+      <Filter>Header Files\engine\phisycs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics\collision_info.h">
+      <Filter>Header Files\engine\phisycs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics\rigid_body.h">
+      <Filter>Header Files\engine\phisycs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics_manager.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frogger\actors\obstacle.h">
+      <Filter>Header Files\frogger\actors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frogger\actors\bg_water.h">
+      <Filter>Header Files\frogger\actors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frogger\actors\background.h">
+      <Filter>Header Files\frogger\actors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frogger\map.h">
+      <Filter>Header Files\frogger</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\texture.h">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\input.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\event.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="dependencies\SDL2-2.0.10\lib\x64\SDL2.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\car.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\car_flip.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\frog.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\frog_original.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\log.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_car.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_log.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_road_bg.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_spawn_bg.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_victory_bg.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_wall.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\ph_water_bg.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assets\frogger\test.png">
+      <Filter>Resource Files\assets</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
