@@ -11,9 +11,11 @@ namespace engine
 		struct my_renderer
 		{
 			SDL_Renderer* renderer;
+		private:
 			SDL_Window* window;
 
 			type::uint8 r, g, b, a;
+
 		public:
 			void init(const int w, const int h);
 			void clear();

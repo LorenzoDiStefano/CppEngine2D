@@ -9,8 +9,9 @@ namespace engine
 	{
 		struct texture
 		{
+		//private:
 			SDL_Texture* my_texture;
-
+		public:
 			void create(my_renderer* renderer, int width, int height);
 			void enable_blend_mode();
 			void unlock();

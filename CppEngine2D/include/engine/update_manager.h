@@ -8,9 +8,6 @@ namespace engine
 	{
 	public:
 
-		update_manager();
-		~update_manager() = default;
-
 		void add_game_object(game_object& go);
 	    void update(const double delta_time);
 

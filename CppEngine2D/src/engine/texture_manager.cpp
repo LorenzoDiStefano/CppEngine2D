@@ -1,21 +1,22 @@
 #include <engine/texture_mananger.h>
 
-using namespace engine;
-
-texture_manager::texture_manager() :  m_stored_texture{ 0 }, m_renderer{ NULL } { }
-
-void texture_manager::set_renderer(gfx::my_renderer* renderer)
+namespace engine
 {
-    this->m_renderer = renderer;
-}
+	texture_manager::texture_manager() : m_stored_texture{ 0 }, m_renderer{ NULL } { }
 
-//return index of texture
-int texture_manager::load_texture(const char* path)
-{
-    gfx::image_info* texture_inf = new gfx::image_info();
-    texture_inf->load_image(path);
-    texture_inf->load_texture(m_renderer);
-    textures[m_stored_texture] = *texture_inf;
+	void texture_manager::set_renderer(gfx::my_renderer* renderer)
+	{
+		this->m_renderer = renderer;
+	}
 
-    return m_stored_texture++;
+	//return index of texture
+	int texture_manager::load_texture(const char* path)
+	{
+		gfx::image_info* texture_inf = new gfx::image_info();
+		texture_inf->load_image(path);
+		texture_inf->load_texture(m_renderer);
+		textures[m_stored_texture] = *texture_inf;
+
+		return m_stored_texture++;
+	}
 }

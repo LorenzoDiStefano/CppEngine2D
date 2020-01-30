@@ -1,32 +1,31 @@
 #include <frogger/actors/background.h>
 
-using namespace frogger;
-
-background::background(engine::draw_manager& draw_manager, engine::gfx::image_info* img_info)
+namespace frogger
 {
-    m_is_active = true;
+	background::background(engine::draw_manager& draw_manager, engine::gfx::image_info* img_info)
+	{
+		m_is_active = true;
 
-    sprite.init(img_info, &draw_manager.renderer);
+		sprite.init(img_info, &draw_manager.renderer);
 
-    //stretch ph art
-    sprite.sprite_rect.w = WINDOW_WIDTH;
-    sprite.sprite_rect.h = TILE_SIZE;
+		//stretch ph art
+		sprite.sprite_rect.w = WINDOW_WIDTH;
+		sprite.sprite_rect.h = TILE_SIZE;
 
-    draw_manager.add_sprite(*this, engine::draw_manager::draw_layer::BACKGROUND);
-}
+		draw_manager.add_sprite(*this, engine::draw_manager::draw_layer::BACKGROUND);
+	}
 
-void background::update(const float delta_time)
-{
-    //todo
-    return;
-}
+	void background::update(const float delta_time)
+	{
+		//todo
+		return;
+	}
 
-void background::draw() const
-{
-    sprite.sprite_rect.x = m_position.x;
-    sprite.sprite_rect.y = m_position.y;
+	void background::draw() const
+	{
+		sprite.sprite_rect.x = m_position.x;
+		sprite.sprite_rect.y = m_position.y;
 
-    sprite.draw();
-
-    //SDL_RenderCopy(sprite.renderer, sprite.texture, NULL, &sprite.sprite_rect);
+		sprite.draw();
+	}
 }

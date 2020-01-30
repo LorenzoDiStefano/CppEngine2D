@@ -31,12 +31,6 @@
     <Filter Include="Header Files\engine\gfx">
       <UniqueIdentifier>{3d2673fd-b977-4e1f-8c69-c12fbc3e663d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\utilities">
-      <UniqueIdentifier>{4f30299f-c7aa-48be-9efc-e28854a972bc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\utilities">
-      <UniqueIdentifier>{0f253cfa-b24d-4726-bf9d-353466241789}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\frogger">
       <UniqueIdentifier>{693e61a8-48f8-427e-a8d4-429048580bc9}</UniqueIdentifier>
     </Filter>
@@ -57,6 +51,12 @@
     </Filter>
     <Filter Include="Resource Files\assets">
       <UniqueIdentifier>{bc9716b2-caa1-4d80-9939-e3f4478b933c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utility">
+      <UniqueIdentifier>{4f30299f-c7aa-48be-9efc-e28854a972bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utility">
+      <UniqueIdentifier>{0f253cfa-b24d-4726-bf9d-353466241789}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -82,7 +82,7 @@
       <Filter>Source Files\math</Filter>
     </ClCompile>
     <ClCompile Include="src\utilities\timer.cpp">
-      <Filter>Source Files\utilities</Filter>
+      <Filter>Source Files\utility</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\texture_manager.cpp">
       <Filter>Source Files\engine</Filter>
@@ -156,7 +156,7 @@
       <Filter>Header Files\engine</Filter>
     </ClInclude>
     <ClInclude Include="include\utility\types.h">
-      <Filter>Header Files\utilities</Filter>
+      <Filter>Header Files\utility</Filter>
     </ClInclude>
     <ClInclude Include="include\engine\game_clock.h">
       <Filter>Header Files\engine</Filter>
@@ -174,7 +174,7 @@
       <Filter>Header Files\math</Filter>
     </ClInclude>
     <ClInclude Include="include\utility\timer.h">
-      <Filter>Header Files\utilities</Filter>
+      <Filter>Header Files\utility</Filter>
     </ClInclude>
     <ClInclude Include="include\game.h">
       <Filter>Header Files\frogger</Filter>

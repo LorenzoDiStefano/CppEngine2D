@@ -14,7 +14,6 @@ namespace frogger
 	{
 	public:
 		game();
-		~game();
 
 		void start();
 
@@ -32,6 +31,6 @@ namespace frogger
 		engine::physics_manager m_physics_manager;
 		engine::texture_manager m_texture_manager;
 		frogger::map m_game_map;
-		utilities::timer m_frame_timer;
+		utility::timer m_frame_timer;
 	};
 }

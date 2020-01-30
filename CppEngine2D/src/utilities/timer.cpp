@@ -1,67 +1,68 @@
 #include <utility/timer.h>
 
-using namespace utilities;
-
-timer::timer(bool auto_restart, float interval) :
-    callback{ nullptr },
-    m_auto_restart{ auto_restart },
-    m_is_started{ false },
-    m_interval{ interval },
-    m_accumulated_time{ 0 }
-{ }
-
-void timer::tick(float delta_time)
+namespace utility
 {
-	if (!m_is_started)
-		return;
+	timer::timer(bool auto_restart, float interval) :
+		callback{ nullptr },
+		m_auto_restart{ auto_restart },
+		m_is_started{ false },
+		m_interval{ interval },
+		m_accumulated_time{ 0 }
+	{ }
 
-    m_accumulated_time += delta_time;
+	void timer::tick(float delta_time)
+	{
+		if (!m_is_started)
+			return;
 
-    if (is_time_elapsed())
-    {
-        callback();
+		m_accumulated_time += delta_time;
 
-        if (m_auto_restart)
-        {
-            m_accumulated_time -= m_interval;
-        }
-        else
-        {
-            stop();
-        }
-    }
-}
+		if (is_time_elapsed())
+		{
+			callback();
 
-void timer::start()
-{
-    if (callback == nullptr)
-    {
-        exit(1);
-    }
-    m_is_started = true;
-}
+			if (m_auto_restart)
+			{
+				m_accumulated_time -= m_interval;
+			}
+			else
+			{
+				stop();
+			}
+		}
+	}
 
-void timer::stop()
-{
-    m_is_started = false;
-}
+	void timer::start()
+	{
+		if (callback == nullptr)
+		{
+			exit(1);
+		}
+		m_is_started = true;
+	}
 
-void timer::set_auto_restart(bool auto_restart)
-{
-    m_auto_restart = auto_restart;
-}
+	void timer::stop()
+	{
+		m_is_started = false;
+	}
 
-bool timer::is_time_elapsed()
-{
-    return m_accumulated_time >= m_interval;
-}
+	void timer::set_auto_restart(bool auto_restart)
+	{
+		m_auto_restart = auto_restart;
+	}
 
-float timer::missing_time() const
-{
-    return m_interval - m_accumulated_time;
-}
+	bool timer::is_time_elapsed()
+	{
+		return m_accumulated_time >= m_interval;
+	}
 
-float timer::get_interval()
-{
-    return m_interval;
+	float timer::missing_time() const
+	{
+		return m_interval - m_accumulated_time;
+	}
+
+	float timer::get_interval()
+	{
+		return m_interval;
+	}
 }

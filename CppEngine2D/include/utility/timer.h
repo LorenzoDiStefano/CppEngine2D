@@ -2,7 +2,7 @@
 
 #include <functional>
 
-namespace utilities
+namespace utility
 {
 	class timer
 	{

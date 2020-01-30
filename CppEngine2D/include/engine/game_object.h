@@ -29,10 +29,6 @@ namespace engine
 		//temp
 		virtual void on_collision(engine::physics::collision_info* ci);
 
-		//ctor
-		game_object() = default;
-		~game_object() = default;
-
 	protected:
 		bool m_is_active;
 		my_math::vector2 m_position;

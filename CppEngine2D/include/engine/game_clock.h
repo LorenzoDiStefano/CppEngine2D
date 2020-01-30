@@ -11,7 +11,6 @@ namespace engine
 		
 		//ctor
 		game_clock();
-		~game_clock() = default;
 
 	private:
 
