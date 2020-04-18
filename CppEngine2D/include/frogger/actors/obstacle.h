@@ -1,4 +1,6 @@
-#pragma once
+#ifndef FROGGER_OBSTACLE
+#define FROGGER_OBSTACLE
+
 #include <engine/draw_manager.h>
 #include <engine/physics/rigid_body.h>
 
@@ -17,3 +19,5 @@ namespace frogger
 		void draw() const override;
 	};
 }
+
+#endif

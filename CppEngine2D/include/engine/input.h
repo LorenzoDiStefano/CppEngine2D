@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_INPUT
+#define ENGINE_INPUT
+
 #include <cstdint>
 #include <utility/types.h>
 
@@ -17,3 +19,5 @@ namespace engine
 		};
 	};
 }
+
+#endif

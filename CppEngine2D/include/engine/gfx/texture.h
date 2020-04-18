@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_TEXTURE
+#define ENGINE_TEXTURE
+
 #include <cstdint>
 #include <utility/types.h>
 #include <engine/gfx/renderer.h>
@@ -19,3 +21,5 @@ namespace engine
 		};
 	}
 }
+
+#endif

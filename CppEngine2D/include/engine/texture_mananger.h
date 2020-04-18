@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_TEXTURE_MANAGER
+#define ENGINE_TEXTURE_MANAGER
+
 #include <engine/gfx/image_info.h>
 #include <engine/gfx/renderer.h>
 
@@ -25,3 +27,5 @@ namespace engine
 		gfx::my_renderer* m_renderer;
 	};
 }
+
+#endif

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef FROGGER_BG_WATER
+#define FROGGER_BG_WATER
+
 #include <frogger/actors/background.h>
 
 namespace frogger
@@ -15,3 +17,5 @@ namespace frogger
 
 	};
 }
+
+#endif

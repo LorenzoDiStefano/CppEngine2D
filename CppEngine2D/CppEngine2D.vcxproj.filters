@@ -75,12 +75,6 @@
     <ClCompile Include="src\engine\game_clock.cpp">
       <Filter>Source Files\engine</Filter>
     </ClCompile>
-    <ClCompile Include="src\math\vector3.cpp">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
-    <ClCompile Include="src\math\vector4.cpp">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
     <ClCompile Include="src\utilities\timer.cpp">
       <Filter>Source Files\utility</Filter>
     </ClCompile>
@@ -160,18 +154,6 @@
     </ClInclude>
     <ClInclude Include="include\engine\game_clock.h">
       <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="glad.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="khrplatform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\math\vector4.h">
-      <Filter>Header Files\math</Filter>
-    </ClInclude>
-    <ClInclude Include="include\math\vector3.h">
-      <Filter>Header Files\math</Filter>
     </ClInclude>
     <ClInclude Include="include\utility\timer.h">
       <Filter>Header Files\utility</Filter>

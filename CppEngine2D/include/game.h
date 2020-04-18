@@ -1,4 +1,5 @@
-#pragma once
+#ifndef FROGGER_GAME
+#define FROGGER_GAME
 
 #include <engine/draw_manager.h>
 #include <engine/game_clock.h>
@@ -34,3 +35,5 @@ namespace frogger
 		utility::timer m_frame_timer;
 	};
 }
+
+#endif

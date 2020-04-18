@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_IMAGE_INFO
+#define ENGINE_IMAGE_INFO
+
 #include <utility/types.h>
 
 namespace engine
@@ -23,3 +25,5 @@ namespace engine
         };
     }
 }
+
+#endif

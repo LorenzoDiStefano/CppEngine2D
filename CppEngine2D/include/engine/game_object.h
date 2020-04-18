@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_GAME_OBJECT
+#define ENGINE_GAME_OBJECT
+
 #include <math/vector2.h>
 
 namespace engine
@@ -34,3 +36,5 @@ namespace engine
 		my_math::vector2 m_position;
 	};
 }
+
+#endif

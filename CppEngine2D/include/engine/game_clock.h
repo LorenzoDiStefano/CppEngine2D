@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_GAME_CLOCK
+#define ENGINE_GAME_CLOCK
+
 #include "utility/types.h"
 
 namespace engine
@@ -21,3 +23,5 @@ namespace engine
 
 	};
 }
+
+#endif

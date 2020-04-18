@@ -1,4 +1,6 @@
-#pragma once 
+#ifndef FROGGER_PLAYER
+#define FROGGER_PLAYER
+
 #include <engine/game_object.h>
 #include <engine/physics/collision_info.h>
 #include <engine/draw_manager.h>
@@ -39,3 +41,5 @@ namespace frogger
 		bool m_on_water;
 	};
 }
+
+#endif

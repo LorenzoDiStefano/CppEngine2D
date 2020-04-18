@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ENGINE_COLLISION_INFO
+#define ENGINE_COLLISION_INFO
 
 #include <math/vector2.h>
 
@@ -18,3 +19,5 @@ namespace engine
 		};
 	}
 }
+
+#endif

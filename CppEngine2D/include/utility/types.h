@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ENGINE_TYPES
+#define ENGINE_TYPES
 
 #ifndef SDL_MAIN_HANDLED
 #define SDL_MAIN_HANDLED
@@ -11,3 +12,5 @@ namespace type
 	using uint32 = Uint32;
 	using rect = SDL_Rect;
 }
+
+#endif

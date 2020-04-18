@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_BOUNDING_BOX
+#define ENGINE_BOUNDING_BOX
+
 #include <engine/physics/collision_info.h>
 
 namespace engine
@@ -37,3 +39,5 @@ namespace engine
 		};
 	}
 }
+
+#endif

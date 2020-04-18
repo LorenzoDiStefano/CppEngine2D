@@ -176,12 +176,9 @@
     <ClCompile Include="src\frogger\map.cpp" />
     <ClCompile Include="src\frogger\game.cpp" />
     <ClCompile Include="src\math\vector2.cpp" />
-    <ClCompile Include="src\math\vector3.cpp" />
-    <ClCompile Include="src\math\vector4.cpp" />
     <ClCompile Include="src\utilities\timer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="glad.h" />
     <ClInclude Include="include\engine\draw_manager.h" />
     <ClInclude Include="include\engine\event.h" />
     <ClInclude Include="include\engine\game_clock.h" />
@@ -204,11 +201,8 @@
     <ClInclude Include="include\frogger\map.h" />
     <ClInclude Include="include\game.h" />
     <ClInclude Include="include\math\vector2.h" />
-    <ClInclude Include="include\math\vector3.h" />
-    <ClInclude Include="include\math\vector4.h" />
     <ClInclude Include="include\utility\timer.h" />
     <ClInclude Include="include\utility\types.h" />
-    <ClInclude Include="khrplatform.h" />
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="dependencies\SDL2-2.0.10\lib\x64\SDL2.dll">

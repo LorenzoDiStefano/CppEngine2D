@@ -1,4 +1,6 @@
-#pragma once
+#ifndef FROGGER_MAP
+#define FROGGER_MAP
+
 #include <frogger/actors/background.h>
 #include <frogger/actors/obstacle.h>
 #include <engine/draw_manager.h>
@@ -20,3 +22,5 @@ namespace frogger
 		void init(engine::draw_manager& dm, engine::texture_manager* img_info,engine::physics_manager& pm,engine::update_manager& um);
 	};
 }
+
+#endif // !FROGGER_MAP

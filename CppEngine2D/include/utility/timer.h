@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ENGINE_TIMER
+#define ENGINE_TIMER
 
 #include <functional>
 
@@ -36,3 +37,5 @@ namespace utility
 		float m_accumulated_time;
 	};
 }
+
+#endif

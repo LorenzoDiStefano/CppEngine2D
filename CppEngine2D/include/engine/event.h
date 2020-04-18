@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ENGINE_EVENT
+#define ENGINE_EVENT
 
 #include <utility/types.h>
 
@@ -17,3 +18,5 @@ namespace engine
 		};
 	};
 }
+
+#endif

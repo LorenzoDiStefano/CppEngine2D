@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_RIGID_BODY
+#define ENGINE_RIGID_BODY
+
 #include <utility/types.h>
 #include <engine/physics/bounding_box.h>
 #include <engine/game_object.h>
@@ -70,3 +72,5 @@ namespace engine
 		};
 	}
 }
+
+#endif

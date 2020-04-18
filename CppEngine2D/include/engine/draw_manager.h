@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_DRAW_MANAGER
+#define ENGINE_DRAW_MANAGER
+
 #include <engine/gfx/sprite.h>
 #include <engine/game_object.h>
 #include <engine/gfx/renderer.h>
@@ -34,3 +36,5 @@ namespace engine
         std::vector<const game_object*> sprites[(int)draw_layer::MAX];
     };
 }
+
+#endif

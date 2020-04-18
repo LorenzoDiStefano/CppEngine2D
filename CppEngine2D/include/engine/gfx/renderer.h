@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_RENDERER
+#define ENGINE_RENDERER
+
 #include <engine/gfx/sprite.h>
 #include <engine/gfx/texture.h>
 #include <cstdint>
@@ -26,3 +28,5 @@ namespace engine
 		};
 	}
 }
+
+#endif

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_UPDATE_MANAGER
+#define ENGINE_UPDATE_MANAGER
+
 #include <engine/game_object.h>
 #include <vector>
 
@@ -17,4 +19,4 @@ namespace engine
 	};
 }
 
-
+#endif

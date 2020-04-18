@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_SPRITE
+#define ENGINE_SPRITE
+
 #include <engine/gfx/image_info.h>
 #include <engine/gfx/texture.h>
 #include <utility/types.h>
@@ -22,3 +24,5 @@ namespace engine
         };
     }
 }
+
+#endif

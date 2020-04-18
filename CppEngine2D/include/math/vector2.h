@@ -1,4 +1,6 @@
-#pragma once
+#ifndef MATH_VECTOR2
+#define MATH_VECTOR2
+
 #include <stdio.h>
 #include <math.h>
 #include <iostream>
@@ -52,3 +54,5 @@ namespace my_math
         static const vector2& unit_y();
     };
 }
+
+#endif

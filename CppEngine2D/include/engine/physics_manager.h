@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENGINE_PHYSICS_MANAGER
+#define ENGINE_PHYSICS_MANAGER
+
 #include <engine/physics/rigid_body.h>
 #include <vector>
 
@@ -13,3 +15,5 @@ namespace engine
 		void check_collisions();
 	};
 }
+
+#endif
