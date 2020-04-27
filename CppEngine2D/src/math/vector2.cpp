@@ -6,6 +6,8 @@ namespace my_math
 
     vector2::vector2() : x{ 0 }, y{ 0 } { };
 
+    vector2::vector2(const vector2& other) : x{ other.x }, y{ other.y } { };
+
     vector2::~vector2() = default;
 
     //operators
@@ -142,12 +144,12 @@ namespace my_math
 
     float vector2::length() const
     {
-        double len_squared = ((double)x * x) + ((double)y * y);
+        double len_squared = (x * x) + (y * y);
 
         if (len_squared == 0.0f)
             return 0.0f;
 
-        float square = (float)(sqrt(len_squared));
+        float square = static_cast<float>(sqrt(len_squared));
 
         return square;
     }
@@ -170,32 +172,31 @@ namespace my_math
     //using Construct On First Use Idiom
     const vector2& vector2::unit_x()
     {
-        static const vector2 unit_x = vector2(1.0f, 0.0f);
+        static const vector2 unit_x{ 1.0f, 0.0f };
         return unit_x;
     }
 
     const vector2& vector2::unit_y()
     {
-        static const vector2 unit_y = vector2(0.0f, 1.0f);
+        static const vector2 unit_y{ 0.0f, 1.0f };
         return unit_y;                                  
     }                                                   
                                                     
     const vector2& vector2::zero()                      
     {                                                   
-        static const vector2 zero = vector2(0.0f, 0.0f);
+        static const vector2 zero{ 0.0f, 0.0f };
         return zero;                                    
     }                                                   
                                                     
     const vector2& vector2::one()                       
     {                                                   
-        static const vector2 one = vector2(1.0f, 1.0f);
+        static const vector2 one{ 1.0f, 1.0f };
         return one;
     }
 
-    //return a pointer to an array of float on the heap, not nice
-    float* vector2::to_float_array() const
+    std::array<float,2> vector2::to_float_array() const
     {
-        float* values = new float[2];
+        std::array<float, 2> values;
         values[0] = this->x;
         values[1] = this->y;
 

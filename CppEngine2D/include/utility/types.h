@@ -9,6 +9,7 @@
 namespace type
 {
 	using uint8 = Uint8;
+	using uint16 = Uint16;
 	using uint32 = Uint32;
 	using rect = SDL_Rect;
 }

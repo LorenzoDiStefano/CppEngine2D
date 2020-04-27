@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <iostream>
+#include<array>
 
 namespace my_math
 {
@@ -11,6 +12,7 @@ namespace my_math
     {
         //constructors
         vector2();
+        vector2(const vector2& other);
         vector2(float px, float py);
 
         ~vector2();
@@ -37,11 +39,11 @@ namespace my_math
         void normalize();
 
         //const member functions
-        float length()const;
-        float length_squared()const;
-        float* to_float_array()const;
-        vector2 lerp(const vector2& b, const float blend)const;
-        vector2 normalized()const;
+        float length() const;
+        float length_squared() const;
+        std::array<float,2> to_float_array() const;
+        vector2 lerp(const vector2& b, const float blend) const;
+        vector2 normalized() const;
 
         //members
         float x;

@@ -12,14 +12,15 @@ namespace engine
 {
 	namespace gfx
 	{
-		int image_info::load_image(const char* path)
+		int image_info::load_image(const std::string& path)
 		{
-			image = stbi_load(path, &width, &height, &comp, STBI_rgb_alpha);
+			const char* path_cstring = path.c_str();
+			image = stbi_load(path_cstring, &width, &height, &comp, STBI_rgb_alpha);
 
-			SDL_Log("Loading img: %s", path);
+			SDL_Log("Loading img: %s", path_cstring);
 			if (!image)
 			{
-				SDL_Log("Error loading img: %s", path);
+				SDL_Log("Error loading img: %s", path_cstring);
 				return 1;
 			}
 

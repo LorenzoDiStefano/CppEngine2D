@@ -3,7 +3,7 @@
 
 #include <engine/gfx/image_info.h>
 #include <engine/gfx/renderer.h>
-
+#include <string>
 //temporary, should use dynamic array/dictionary
 #define TM_MAX_TEXTURES 100
 
@@ -16,7 +16,7 @@ namespace engine
 		engine::gfx::image_info textures[TM_MAX_TEXTURES];
 
 		//return index of texture
-		int load_texture(const char* path);
+		int load_texture(const std::string& path);
 		void set_renderer(gfx::my_renderer* renderer);
 
 		texture_manager();

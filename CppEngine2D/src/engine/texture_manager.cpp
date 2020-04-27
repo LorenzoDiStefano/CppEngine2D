@@ -1,5 +1,6 @@
 #include <engine/texture_mananger.h>
 
+
 namespace engine
 {
 	texture_manager::texture_manager() : m_stored_texture{ 0 }, m_renderer{ NULL } { }
@@ -10,7 +11,7 @@ namespace engine
 	}
 
 	//return index of texture
-	int texture_manager::load_texture(const char* path)
+	int texture_manager::load_texture(const std::string& path)
 	{
 		gfx::image_info* texture_inf = new gfx::image_info();
 		texture_inf->load_image(path);

@@ -1,7 +1,7 @@
 #ifndef ENGINE_IMAGE_INFO
 #define ENGINE_IMAGE_INFO
 
-#include <utility/types.h>
+#include <string>
 
 namespace engine
 {
@@ -17,11 +17,13 @@ namespace engine
             int height;
             int comp;
             int length;
+
+            //pointer to allocated image on the dynamic memory
             unsigned char* image;
             texture* texture;
 
             void load_texture(my_renderer* renderer);
-            int load_image(const char* path);
+            int load_image(const std::string& path);
         };
     }
 }

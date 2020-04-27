@@ -5,6 +5,9 @@
 #include <thread>
 #include <chrono>
 
+#include <array>
+#include <string>
+
 namespace frogger
 {
 	game::game() :
@@ -12,9 +15,7 @@ namespace frogger
 		m_frame_time{ 1.0f / m_target_fps },
 		m_frame_timer{ utility::timer(true, m_frame_time) }
 	{
-		m_frame_timer.callback = std::bind(&game::m_single_step, this);
-		//not working here
-		//m_frame_timer.callback = [this]() { m_single_step(); };
+		m_frame_timer.callback = [this]() { m_single_step(); };
 	}
 
 	void game::m_single_step()
@@ -68,7 +69,7 @@ namespace frogger
 
 	void game::m_load_textures()
 	{
-		const char* paths[8];
+		std::array<std::string, 8> paths;
 		paths[0] = "assets/frogger/frog.png";
 		paths[1] = "assets/frogger/ph_road_bg.png";
 		paths[2] = "assets/frogger/ph_water_bg.png";
