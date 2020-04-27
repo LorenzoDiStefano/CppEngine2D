@@ -349,5 +349,5 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-#SDL2 exceptions
-!CppEngine2D/dependencies/SDL2-2.0.10/lib/x64
+#CMake Stuff
+out/build/*
