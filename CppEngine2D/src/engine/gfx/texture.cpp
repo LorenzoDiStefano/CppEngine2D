@@ -1,4 +1,4 @@
-#include <engine/gfx/texture.h>
+#include <engine/gfx/texture.hpp>
 
 
 namespace engine

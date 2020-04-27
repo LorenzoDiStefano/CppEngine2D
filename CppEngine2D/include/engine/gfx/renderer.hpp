@@ -1,10 +1,10 @@
 #ifndef ENGINE_RENDERER
 #define ENGINE_RENDERER
 
-#include <engine/gfx/sprite.h>
-#include <engine/gfx/texture.h>
+#include <engine/gfx/sprite.hpp>
+#include <engine/gfx/texture.hpp>
 #include <cstdint>
-#include <utility/types.h>
+#include <utility/types.hpp>
 
 namespace engine
 {

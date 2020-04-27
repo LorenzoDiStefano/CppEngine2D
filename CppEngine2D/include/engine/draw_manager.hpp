@@ -1,9 +1,9 @@
 #ifndef ENGINE_DRAW_MANAGER
 #define ENGINE_DRAW_MANAGER
 
-#include <engine/gfx/sprite.h>
-#include <engine/game_object.h>
-#include <engine/gfx/renderer.h>
+#include <engine/gfx/sprite.hpp>
+#include <engine/game_object.hpp>
+#include <engine/gfx/renderer.hpp>
 #include <vector>
 
 namespace engine

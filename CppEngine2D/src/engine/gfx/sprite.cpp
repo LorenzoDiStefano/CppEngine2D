@@ -1,5 +1,5 @@
-#include <engine/gfx/sprite.h>
-#include <engine/gfx/renderer.h>
+#include <engine/gfx/sprite.hpp>
+#include <engine/gfx/renderer.hpp>
 
 namespace engine
 {

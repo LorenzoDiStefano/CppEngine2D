@@ -1,7 +1,7 @@
 #ifndef FROGGER_BG_WATER
 #define FROGGER_BG_WATER
 
-#include <frogger/actors/background.h>
+#include <frogger/actors/background.hpp>
 
 namespace frogger
 {

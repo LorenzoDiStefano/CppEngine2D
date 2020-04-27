@@ -179,30 +179,30 @@
     <ClCompile Include="src\utilities\timer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\engine\draw_manager.h" />
-    <ClInclude Include="include\engine\event.h" />
-    <ClInclude Include="include\engine\game_clock.h" />
-    <ClInclude Include="include\engine\game_object.h" />
-    <ClInclude Include="include\engine\gfx\image_info.h" />
-    <ClInclude Include="include\engine\gfx\renderer.h" />
-    <ClInclude Include="include\engine\gfx\sprite.h" />
-    <ClInclude Include="include\engine\gfx\texture.h" />
-    <ClInclude Include="include\engine\input.h" />
-    <ClInclude Include="include\engine\physics\bounding_box.h" />
-    <ClInclude Include="include\engine\physics\collision_info.h" />
-    <ClInclude Include="include\engine\physics\rigid_body.h" />
-    <ClInclude Include="include\engine\physics_manager.h" />
-    <ClInclude Include="include\engine\texture_mananger.h" />
-    <ClInclude Include="include\engine\update_manager.h" />
-    <ClInclude Include="include\frogger\actors\background.h" />
-    <ClInclude Include="include\frogger\actors\bg_water.h" />
-    <ClInclude Include="include\frogger\actors\obstacle.h" />
-    <ClInclude Include="include\frogger\actors\player.h" />
-    <ClInclude Include="include\frogger\map.h" />
-    <ClInclude Include="include\game.h" />
-    <ClInclude Include="include\math\vector2.h" />
-    <ClInclude Include="include\utility\timer.h" />
-    <ClInclude Include="include\utility\types.h" />
+    <ClInclude Include="include\engine\draw_manager.hpp" />
+    <ClInclude Include="include\engine\event.hpp" />
+    <ClInclude Include="include\engine\game_clock.hpp" />
+    <ClInclude Include="include\engine\game_object.hpp" />
+    <ClInclude Include="include\engine\gfx\image_info.hpp" />
+    <ClInclude Include="include\engine\gfx\renderer.hpp" />
+    <ClInclude Include="include\engine\gfx\sprite.hpp" />
+    <ClInclude Include="include\engine\gfx\texture.hpp" />
+    <ClInclude Include="include\engine\input.hpp" />
+    <ClInclude Include="include\engine\physics\bounding_box.hpp" />
+    <ClInclude Include="include\engine\physics\collision_info.hpp" />
+    <ClInclude Include="include\engine\physics\rigid_body.hpp" />
+    <ClInclude Include="include\engine\physics_manager.hpp" />
+    <ClInclude Include="include\engine\texture_mananger.hpp" />
+    <ClInclude Include="include\engine\update_manager.hpp" />
+    <ClInclude Include="include\frogger\actors\background.hpp" />
+    <ClInclude Include="include\frogger\actors\bg_water.hpp" />
+    <ClInclude Include="include\frogger\actors\obstacle.hpp" />
+    <ClInclude Include="include\frogger\actors\player.hpp" />
+    <ClInclude Include="include\frogger\map.hpp" />
+    <ClInclude Include="include\game.hpp" />
+    <ClInclude Include="include\math\vector2.hpp" />
+    <ClInclude Include="include\utility\timer.hpp" />
+    <ClInclude Include="include\utility\types.hpp" />
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="dependencies\SDL2-2.0.10\lib\x64\SDL2.dll">

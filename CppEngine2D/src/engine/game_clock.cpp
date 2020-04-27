@@ -1,5 +1,5 @@
-#include <engine/game_clock.h>
-#include <utility/types.h>
+#include <engine/game_clock.hpp>
+#include <utility/types.hpp>
 
 namespace engine
 {

@@ -1,6 +1,6 @@
-#include <engine/game_object.h>
-#include <engine/physics/collision_info.h>
-#include <engine/physics_manager.h>
+#include <engine/game_object.hpp>
+#include <engine/physics/collision_info.hpp>
+#include <engine/physics_manager.hpp>
 
 namespace engine
 {

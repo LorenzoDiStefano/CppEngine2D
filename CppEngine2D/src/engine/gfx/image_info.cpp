@@ -1,7 +1,7 @@
-#include <engine/gfx/image_info.h>
-#include <engine/gfx/renderer.h>
-#include <engine/gfx/texture.h>
-#include <utility/types.h>
+#include <engine/gfx/image_info.hpp>
+#include <engine/gfx/renderer.hpp>
+#include <engine/gfx/texture.hpp>
+#include <utility/types.hpp>
 
 #ifndef STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_IMPLEMENTATION

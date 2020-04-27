@@ -1,12 +1,12 @@
 #ifndef FROGGER_MAP
 #define FROGGER_MAP
 
-#include <frogger/actors/background.h>
-#include <frogger/actors/obstacle.h>
-#include <engine/draw_manager.h>
-#include <engine/physics_manager.h>
-#include <engine/texture_mananger.h>
-#include <engine/update_manager.h>
+#include <frogger/actors/background.hpp>
+#include <frogger/actors/obstacle.hpp>
+#include <engine/draw_manager.hpp>
+#include <engine/physics_manager.hpp>
+#include <engine/texture_mananger.hpp>
+#include <engine/update_manager.hpp>
 
 namespace frogger
 {

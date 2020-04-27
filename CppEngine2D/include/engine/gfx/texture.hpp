@@ -2,8 +2,8 @@
 #define ENGINE_TEXTURE
 
 #include <cstdint>
-#include <utility/types.h>
-#include <engine/gfx/renderer.h>
+#include <utility/types.hpp>
+#include <engine/gfx/renderer.hpp>
 
 namespace engine
 {

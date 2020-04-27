@@ -1,7 +1,7 @@
 #ifndef ENGINE_GAME_CLOCK
 #define ENGINE_GAME_CLOCK
 
-#include "utility/types.h"
+#include "utility/types.hpp"
 
 namespace engine
 {

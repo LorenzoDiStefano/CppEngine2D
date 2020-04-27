@@ -1,4 +1,4 @@
-#include <math/vector2.h>
+#include <math/vector2.hpp>
 
 namespace my_math
 {
@@ -6,7 +6,7 @@ namespace my_math
 
     vector2::vector2() : x{ 0 }, y{ 0 } { };
 
-    vector2::vector2(const vector2& other) : x{ other.x }, y{ other.y } { };
+    //vector2::vector2(const vector2& other) : x{ other.x }, y{ other.y } { };
 
     vector2::~vector2() = default;
 

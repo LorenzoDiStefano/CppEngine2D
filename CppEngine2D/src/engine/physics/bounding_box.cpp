@@ -1,4 +1,4 @@
-#include <engine/physics/bounding_box.h>
+#include <engine/physics/bounding_box.hpp>
 
 namespace engine
 {

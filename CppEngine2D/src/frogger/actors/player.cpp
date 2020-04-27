@@ -1,6 +1,6 @@
-#include <frogger/actors/player.h>
-#include <utility/types.h>
-#include <engine/input.h>
+#include <frogger/actors/player.hpp>
+#include <utility/types.hpp>
+#include <engine/input.hpp>
 #include <math.h>
 
 namespace frogger
@@ -29,6 +29,7 @@ namespace frogger
 
 		respawn();
 		draw_manager.add_sprite(*this, engine::draw_manager::draw_layer::FOREGROUND);
+		m_log = nullptr;
 	}
 
 	void player::update(const float delta_time)

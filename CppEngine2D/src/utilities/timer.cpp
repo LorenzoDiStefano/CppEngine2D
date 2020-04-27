@@ -1,4 +1,4 @@
-#include <utility/timer.h>
+#include <utility/timer.hpp>
 
 namespace utility
 {

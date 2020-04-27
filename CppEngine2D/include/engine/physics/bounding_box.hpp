@@ -1,7 +1,7 @@
 #ifndef ENGINE_BOUNDING_BOX
 #define ENGINE_BOUNDING_BOX
 
-#include <engine/physics/collision_info.h>
+#include <engine/physics/collision_info.hpp>
 
 namespace engine
 {

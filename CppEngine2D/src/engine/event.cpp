@@ -1,4 +1,4 @@
-#include <engine/event.h>
+#include <engine/event.hpp>
 
 namespace engine
 {

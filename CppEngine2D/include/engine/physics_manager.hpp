@@ -1,7 +1,7 @@
 #ifndef ENGINE_PHYSICS_MANAGER
 #define ENGINE_PHYSICS_MANAGER
 
-#include <engine/physics/rigid_body.h>
+#include <engine/physics/rigid_body.hpp>
 #include <vector>
 
 namespace engine

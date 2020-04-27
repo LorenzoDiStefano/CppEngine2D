@@ -1,9 +1,9 @@
 #ifndef ENGINE_RIGID_BODY
 #define ENGINE_RIGID_BODY
 
-#include <utility/types.h>
-#include <engine/physics/bounding_box.h>
-#include <engine/game_object.h>
+#include <utility/types.hpp>
+#include <engine/physics/bounding_box.hpp>
+#include <engine/game_object.hpp>
 
 namespace engine
 {

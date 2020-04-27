@@ -131,77 +131,77 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\engine\game_object.h">
+    <ClInclude Include="include\engine\gfx\image_info.hpp">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\renderer.hpp">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\sprite.hpp">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\gfx\texture.hpp">
+      <Filter>Header Files\engine\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics\bounding_box.hpp">
+      <Filter>Header Files\engine\phisycs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics\collision_info.hpp">
+      <Filter>Header Files\engine\phisycs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics\rigid_body.hpp">
+      <Filter>Header Files\engine\phisycs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\draw_manager.hpp">
       <Filter>Header Files\engine</Filter>
     </ClInclude>
-    <ClInclude Include="include\math\vector2.h">
+    <ClInclude Include="include\engine\event.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\game_clock.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\game_object.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\input.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\physics_manager.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\texture_mananger.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\update_manager.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\types.hpp">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\timer.hpp">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vector2.hpp">
       <Filter>Header Files\math</Filter>
     </ClInclude>
-    <ClInclude Include="include\engine\gfx\renderer.h">
-      <Filter>Header Files\engine\gfx</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\gfx\image_info.h">
-      <Filter>Header Files\engine\gfx</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\gfx\sprite.h">
-      <Filter>Header Files\engine\gfx</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\draw_manager.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="include\utility\types.h">
-      <Filter>Header Files\utility</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\game_clock.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="include\utility\timer.h">
-      <Filter>Header Files\utility</Filter>
-    </ClInclude>
-    <ClInclude Include="include\game.h">
+    <ClInclude Include="include\frogger\map.hpp">
       <Filter>Header Files\frogger</Filter>
     </ClInclude>
-    <ClInclude Include="include\frogger\actors\player.h">
-      <Filter>Header Files\frogger\actors</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\texture_mananger.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\update_manager.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\physics\bounding_box.h">
-      <Filter>Header Files\engine\phisycs</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\physics\collision_info.h">
-      <Filter>Header Files\engine\phisycs</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\physics\rigid_body.h">
-      <Filter>Header Files\engine\phisycs</Filter>
-    </ClInclude>
-    <ClInclude Include="include\engine\physics_manager.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="include\frogger\actors\obstacle.h">
-      <Filter>Header Files\frogger\actors</Filter>
-    </ClInclude>
-    <ClInclude Include="include\frogger\actors\bg_water.h">
-      <Filter>Header Files\frogger\actors</Filter>
-    </ClInclude>
-    <ClInclude Include="include\frogger\actors\background.h">
-      <Filter>Header Files\frogger\actors</Filter>
-    </ClInclude>
-    <ClInclude Include="include\frogger\map.h">
+    <ClInclude Include="include\game.hpp">
       <Filter>Header Files\frogger</Filter>
     </ClInclude>
-    <ClInclude Include="include\engine\gfx\texture.h">
-      <Filter>Header Files\engine\gfx</Filter>
+    <ClInclude Include="include\frogger\actors\player.hpp">
+      <Filter>Header Files\frogger\actors</Filter>
     </ClInclude>
-    <ClInclude Include="include\engine\input.h">
-      <Filter>Header Files\engine</Filter>
+    <ClInclude Include="include\frogger\actors\obstacle.hpp">
+      <Filter>Header Files\frogger\actors</Filter>
     </ClInclude>
-    <ClInclude Include="include\engine\event.h">
-      <Filter>Header Files\engine</Filter>
+    <ClInclude Include="include\frogger\actors\bg_water.hpp">
+      <Filter>Header Files\frogger\actors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frogger\actors\background.hpp">
+      <Filter>Header Files\frogger\actors</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

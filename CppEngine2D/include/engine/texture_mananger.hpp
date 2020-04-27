@@ -1,8 +1,8 @@
 #ifndef ENGINE_TEXTURE_MANAGER
 #define ENGINE_TEXTURE_MANAGER
 
-#include <engine/gfx/image_info.h>
-#include <engine/gfx/renderer.h>
+#include <engine/gfx/image_info.hpp>
+#include <engine/gfx/renderer.hpp>
 #include <string>
 //temporary, should use dynamic array/dictionary
 #define TM_MAX_TEXTURES 100

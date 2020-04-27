@@ -1,8 +1,8 @@
 #ifndef MATH_VECTOR2
 #define MATH_VECTOR2
 
-#include <stdio.h>
-#include <math.h>
+#include <iostream>
+#include <cmath>
 #include <iostream>
 #include<array>
 
@@ -12,7 +12,7 @@ namespace my_math
     {
         //constructors
         vector2();
-        vector2(const vector2& other);
+        //vector2(const vector2& other);
         vector2(float px, float py);
 
         ~vector2();

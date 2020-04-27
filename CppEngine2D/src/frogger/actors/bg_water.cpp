@@ -1,4 +1,4 @@
-#include <frogger/actors/bg_water.h>
+#include <frogger/actors/bg_water.hpp>
 
 namespace frogger
 {

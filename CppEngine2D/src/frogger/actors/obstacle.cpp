@@ -1,4 +1,4 @@
-#include <frogger/actors/obstacle.h>
+#include <frogger/actors/obstacle.hpp>
 
 namespace frogger
 {

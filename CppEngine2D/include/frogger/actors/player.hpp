@@ -1,11 +1,11 @@
 #ifndef FROGGER_PLAYER
 #define FROGGER_PLAYER
 
-#include <engine/game_object.h>
-#include <engine/physics/collision_info.h>
-#include <engine/draw_manager.h>
-#include <engine/physics/rigid_body.h>
-#include <frogger/actors/obstacle.h>
+#include <engine/game_object.hpp>
+#include <engine/physics/collision_info.hpp>
+#include <engine/draw_manager.hpp>
+#include <engine/physics/rigid_body.hpp>
+#include <frogger/actors/obstacle.hpp>
 
 namespace frogger
 {

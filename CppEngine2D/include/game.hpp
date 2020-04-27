@@ -1,13 +1,13 @@
 #ifndef FROGGER_GAME
 #define FROGGER_GAME
 
-#include <engine/draw_manager.h>
-#include <engine/game_clock.h>
-#include <engine/texture_mananger.h>
-#include <engine/update_manager.h>
-#include <engine/physics_manager.h>
-#include <utility/timer.h>
-#include <frogger/map.h>
+#include <engine/draw_manager.hpp>
+#include <engine/game_clock.hpp>
+#include <engine/texture_mananger.hpp>
+#include <engine/update_manager.hpp>
+#include <engine/physics_manager.hpp>
+#include <utility/timer.hpp>
+#include <frogger/map.hpp>
 
 namespace frogger
 {

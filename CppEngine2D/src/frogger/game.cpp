@@ -1,7 +1,7 @@
-#include <game.h>
-#include <frogger/actors/player.h>
-#include <frogger/actors/obstacle.h>
-#include <engine/event.h>
+#include <game.hpp>
+#include <frogger/actors/player.hpp>
+#include <frogger/actors/obstacle.hpp>
+#include <engine/event.hpp>
 #include <thread>
 #include <chrono>
 

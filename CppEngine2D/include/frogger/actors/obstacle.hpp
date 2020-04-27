@@ -1,8 +1,8 @@
 #ifndef FROGGER_OBSTACLE
 #define FROGGER_OBSTACLE
 
-#include <engine/draw_manager.h>
-#include <engine/physics/rigid_body.h>
+#include <engine/draw_manager.hpp>
+#include <engine/physics/rigid_body.hpp>
 
 namespace frogger
 {

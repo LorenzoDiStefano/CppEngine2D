@@ -1,4 +1,4 @@
-#include <frogger/actors/background.h>
+#include <frogger/actors/background.hpp>
 
 namespace frogger
 {

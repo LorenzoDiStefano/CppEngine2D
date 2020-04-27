@@ -1,5 +1,5 @@
-#include <frogger/map.h>
-#include <frogger/actors/bg_water.h>
+#include <frogger/map.hpp>
+#include <frogger/actors/bg_water.hpp>
 
 #define TEXTURE_FROG        0
 #define TEXTURE_ROAD        1

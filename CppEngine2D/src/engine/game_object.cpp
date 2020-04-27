@@ -1,4 +1,4 @@
-#include <engine/game_object.h>
+#include <engine/game_object.hpp>
 
 namespace engine
 {
