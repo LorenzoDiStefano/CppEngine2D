@@ -1,5 +1,5 @@
-#include "../src/engine/gfx/texture.hpp"
-
+#include "texture.hpp"
+#include "renderer.hpp"
 
 namespace engine
 {

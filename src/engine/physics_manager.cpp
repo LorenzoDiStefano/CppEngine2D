@@ -1,6 +1,8 @@
-#include "../src/engine/game_object.hpp"
-#include "../src/engine/physics/collision_info.hpp"
-#include "../src/engine/physics_manager.hpp"
+#include "game_object.hpp"
+#include "physics/collision_info.hpp"
+#include "physics_manager.hpp"
+#include "physics/rigid_body.hpp"
+
 
 namespace engine
 {

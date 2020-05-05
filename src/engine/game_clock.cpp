@@ -1,5 +1,5 @@
-#include "../src/engine/game_clock.hpp"
-#include "../src/utilities/types.hpp"
+#include "game_clock.hpp"
+#include "../utilities/types.hpp"
 
 namespace engine
 {

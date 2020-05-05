@@ -1,12 +1,13 @@
 #ifndef ENGINE_RIGID_BODY
 #define ENGINE_RIGID_BODY
 
-#include "../src/utilities/types.hpp"
-#include "../src/engine/physics/bounding_box.hpp"
-#include "../src/engine/game_object.hpp"
+#include "bounding_box.hpp"
+#include "../../utilities/types.hpp"
 
 namespace engine
 {
+	struct game_object;
+
 	namespace physics
 	{
 		class rigid_body

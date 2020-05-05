@@ -1,5 +1,6 @@
-#include "../src/engine/gfx/sprite.hpp"
-#include "../src/engine/gfx/renderer.hpp"
+#include "sprite.hpp"
+#include "renderer.hpp"
+#include "image_info.hpp"
 
 namespace engine
 {

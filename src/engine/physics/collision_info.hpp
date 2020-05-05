@@ -1,7 +1,7 @@
 #ifndef ENGINE_COLLISION_INFO
 #define ENGINE_COLLISION_INFO
 
-#include "../src/math/vector2.hpp"
+#include "../../math/vector2.hpp"
 
 namespace engine
 {

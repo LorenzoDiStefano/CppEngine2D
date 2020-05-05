@@ -1,13 +1,13 @@
 #ifndef ENGINE_DRAW_MANAGER
 #define ENGINE_DRAW_MANAGER
 
-#include "../src/engine/gfx/sprite.hpp"
-#include "../src/engine/game_object.hpp"
-#include "../src/engine/gfx/renderer.hpp"
+#include "gfx/renderer.hpp"
 #include <vector>
 
 namespace engine
 {
+    struct game_object;
+
     class draw_manager
     {
     public:

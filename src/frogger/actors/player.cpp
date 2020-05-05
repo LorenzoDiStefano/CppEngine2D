@@ -1,6 +1,8 @@
-#include "../src/frogger/actors/player.hpp"
-#include "../src/utilities/types.hpp"
-#include "../src/engine/input.hpp"
+#include "player.hpp"
+#include "../../utilities/types.hpp"
+#include "../../engine/input.hpp"
+#include "../../engine/draw_manager.hpp"
+#include "../../engine/physics/collision_info.hpp"
 #include <math.h>
 
 namespace frogger

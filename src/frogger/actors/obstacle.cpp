@@ -1,4 +1,5 @@
-#include "../src/frogger/actors/obstacle.hpp"
+#include "obstacle.hpp"
+#include "../../engine/draw_manager.hpp"
 
 namespace frogger
 {

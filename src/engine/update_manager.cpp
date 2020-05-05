@@ -1,4 +1,5 @@
-#include "../src/engine/update_manager.hpp"
+#include "update_manager.hpp"
+#include "game_object.hpp"
 
 namespace engine
 {

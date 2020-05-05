@@ -1,9 +1,7 @@
 #ifndef MATH_VECTOR2
 #define MATH_VECTOR2
 
-#include <iostream>
 #include <cmath>
-#include <iostream>
 #include <array>
 
 namespace my_math

@@ -1,4 +1,4 @@
-#include "../src/frogger/actors/wood_log.hpp"
+#include "wood_log.hpp"
 
 using namespace frogger;
 

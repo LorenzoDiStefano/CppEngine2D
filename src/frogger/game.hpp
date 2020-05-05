@@ -1,13 +1,13 @@
 #ifndef FROGGER_GAME
 #define FROGGER_GAME
 
-#include "../src/engine/draw_manager.hpp"
-#include "../src/engine/game_clock.hpp"
-#include "../src/engine/texture_manager.hpp"
-#include "../src/engine/update_manager.hpp"
-#include "../src/engine/physics_manager.hpp"
-#include "../src/utilities/timer.hpp"
-#include "../src/frogger/map.hpp"
+#include "../engine/draw_manager.hpp"
+#include "../engine/game_clock.hpp"
+#include "../engine/texture_manager.hpp"
+#include "../engine/update_manager.hpp"
+#include "../engine/physics_manager.hpp"
+#include "../utilities/timer.hpp"
+#include "map.hpp"
 
 namespace frogger
 {

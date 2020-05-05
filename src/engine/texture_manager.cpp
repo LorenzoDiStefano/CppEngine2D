@@ -1,5 +1,4 @@
-#include "../src/engine/texture_manager.hpp"
-
+#include "texture_manager.hpp"
 
 namespace engine
 {

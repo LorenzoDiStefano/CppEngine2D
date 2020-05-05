@@ -1,8 +1,18 @@
 #ifndef FROGGER_BACKGROUND
 #define FROGGER_BACKGROUND
 
-#include "../src/engine/draw_manager.hpp"
-#include "../src/engine/physics/rigid_body.hpp"
+#include "../../engine/gfx/sprite.hpp"
+#include "../../engine/game_object.hpp"
+
+namespace engine
+{
+	class draw_manager;
+
+	namespace gfx
+	{
+		struct image_info;
+	}
+}
 
 namespace frogger
 {

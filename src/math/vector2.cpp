@@ -1,4 +1,4 @@
-#include "../src/math/vector2.hpp"
+#include "vector2.hpp"
 
 namespace my_math
 {

@@ -1,11 +1,19 @@
 #ifndef FROGGER_PLAYER
 #define FROGGER_PLAYER
 
-#include "../src/engine/game_object.hpp"
-#include "../src/engine/physics/collision_info.hpp"
-#include "../src/engine/draw_manager.hpp"
-#include "../src/engine/physics/rigid_body.hpp"
-#include "../src/frogger/actors/obstacle.hpp"
+#include "obstacle.hpp"
+#include "../../engine/game_object.hpp"
+#include "../../engine/physics/rigid_body.hpp"
+#include "../../engine/gfx/sprite.hpp"
+
+namespace engine
+{
+	class draw_manager;
+	namespace physics
+	{
+		struct collision_info;
+	}
+}
 
 namespace frogger
 {

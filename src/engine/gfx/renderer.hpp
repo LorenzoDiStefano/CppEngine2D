@@ -1,15 +1,16 @@
 #ifndef ENGINE_RENDERER
 #define ENGINE_RENDERER
 
-#include "../src/engine/gfx/sprite.hpp"
-#include "../src/engine/gfx/texture.hpp"
-#include "../src/utilities/types.hpp"
+#include "../../utilities/types.hpp"
 #include <cstdint>
 
 namespace engine
 {
 	namespace gfx
 	{
+		struct sprite;
+		struct texture;
+
 		struct my_renderer
 		{
 			SDL_Renderer* renderer;

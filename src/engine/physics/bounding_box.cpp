@@ -1,4 +1,5 @@
-#include "../src/engine/physics/bounding_box.hpp"
+#include "bounding_box.hpp"
+#include "collision_info.hpp"
 
 namespace engine
 {

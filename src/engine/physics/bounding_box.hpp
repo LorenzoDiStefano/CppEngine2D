@@ -1,12 +1,14 @@
 #ifndef ENGINE_BOUNDING_BOX
 #define ENGINE_BOUNDING_BOX
 
-#include "../src/engine/physics/collision_info.hpp"
+#include "../../math/vector2.hpp"
 
 namespace engine
 {
 	namespace physics
 	{
+		struct collision_info;
+
 		class bounding_box
 		{
 		public:

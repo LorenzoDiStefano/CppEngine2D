@@ -1,14 +1,18 @@
 #ifndef ENGINE_TEXTURE_MANAGER
 #define ENGINE_TEXTURE_MANAGER
 
-#include "../src/engine/gfx/image_info.hpp"
-#include "../src/engine/gfx/renderer.hpp"
+#include "gfx/image_info.hpp"
 #include <string>
 //temporary, should use dynamic array/dictionary
 #define TM_MAX_TEXTURES 100
 
 namespace engine
 {
+	namespace gfx
+	{
+		struct my_renderer;
+	}
+
 	class texture_manager
 	{
 	public:

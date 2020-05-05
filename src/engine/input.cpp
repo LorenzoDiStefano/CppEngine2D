@@ -1,4 +1,4 @@
-#include "../src/engine/input.hpp"
+#include "input.hpp"
 
 namespace engine
 {

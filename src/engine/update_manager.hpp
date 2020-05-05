@@ -1,11 +1,12 @@
 #ifndef ENGINE_UPDATE_MANAGER
 #define ENGINE_UPDATE_MANAGER
 
-#include "../src/engine/game_object.hpp"
 #include <vector>
 
 namespace engine
 {
+	struct game_object;
+
 	class update_manager
 	{
 	public:

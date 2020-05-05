@@ -1,4 +1,4 @@
-#include "../src/engine/game_object.hpp"
+#include "game_object.hpp"
 
 namespace engine
 {

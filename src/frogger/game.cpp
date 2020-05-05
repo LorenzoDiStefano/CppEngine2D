@@ -1,10 +1,9 @@
-#include "../src/frogger/game.hpp"
-#include "../src/frogger/actors/player.hpp"
-#include "../src/frogger/actors/obstacle.hpp"
-#include "../src/engine/event.hpp"
+#include "game.hpp"
+#include "actors/player.hpp"
+#include "actors/obstacle.hpp"
+#include "../engine/event.hpp"
 #include <thread>
 #include <chrono>
-
 #include <array>
 #include <string>
 

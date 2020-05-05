@@ -1,11 +1,15 @@
 #ifndef ENGINE_PHYSICS_MANAGER
 #define ENGINE_PHYSICS_MANAGER
 
-#include "../src/engine/physics/rigid_body.hpp"
 #include <vector>
 
 namespace engine
 {
+	namespace physics
+	{
+		struct rigid_body;
+	}
+
 	struct physics_manager
 	{
 		std::vector < physics::rigid_body* > rigid_bodies;

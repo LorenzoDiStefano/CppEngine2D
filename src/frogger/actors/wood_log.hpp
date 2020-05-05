@@ -1,11 +1,17 @@
-#pragma once
-#include "../src/engine/draw_manager.hpp"
-#include "../src/engine/physics/rigid_body.hpp"
-#include "../src/frogger/actors/obstacle.hpp"
+#ifndef FROGGER_WOOD_LOG
+#define FROGGER_WOOD_LOG
+
+#include "obstacle.hpp"
+#include "../../engine/physics/rigid_body.hpp"
 
 namespace engine
 {
 	struct game_object;
+	class draw_manager;
+	namespace gfx
+	{
+		struct image_info;
+	}
 }
 
 namespace frogger
@@ -16,11 +22,12 @@ namespace frogger
 		wood_log(engine::draw_manager& fm, engine::gfx::image_info* img_info);
 		~wood_log() = default;
 
-		void atach_player(game_object*);
-		void detach_player(game_object*);
-		
+		void atach_player(engine::game_object*);
+		void detach_player(engine::game_object*);
 
 	private:
-		game_object* player;
+		engine::game_object* player;
 	};
 }
+
+#endif

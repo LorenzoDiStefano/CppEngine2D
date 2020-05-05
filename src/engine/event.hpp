@@ -1,7 +1,7 @@
 #ifndef ENGINE_EVENT
 #define ENGINE_EVENT
 
-#include "../src/utilities/types.hpp"
+#include "../utilities/types.hpp"
 
 namespace engine
 {

@@ -1,11 +1,13 @@
-#include "../src/engine/gfx/image_info.hpp"
-#include "../src/engine/gfx/renderer.hpp"
-#include "../src/engine/gfx/texture.hpp"
-#include "../src/utilities/types.hpp"
+#include "image_info.hpp"
+#include "renderer.hpp"
+#include "texture.hpp"
+#include "../../utilities/types.hpp"
 
 #ifndef STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_IMPLEMENTATION
-#include "../dependencies/stb_image.h"
+extern "C" {
+#include "../../../dependencies/stb_image.h"
+}
 #endif
 
 namespace engine

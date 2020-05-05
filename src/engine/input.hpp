@@ -1,8 +1,7 @@
 #ifndef ENGINE_INPUT
 #define ENGINE_INPUT
 
-#include <cstdint>
-#include "../src/utilities/types.hpp"
+#include "../utilities/types.hpp"
 
 namespace engine
 {

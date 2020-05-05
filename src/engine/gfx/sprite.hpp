@@ -1,15 +1,15 @@
 #ifndef ENGINE_SPRITE
 #define ENGINE_SPRITE
 
-#include "../src/engine/gfx/image_info.hpp"
-#include "../src/engine/gfx/texture.hpp"
-#include "../src/utilities/types.hpp"
+#include "../../utilities/types.hpp"
 
 namespace engine
 {
     namespace gfx
     {
         struct my_renderer;
+        struct texture;
+        struct image_info;
 
         struct sprite
         {

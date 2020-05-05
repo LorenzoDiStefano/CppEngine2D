@@ -1,5 +1,11 @@
-#include "../src/frogger/map.hpp"
-#include "../src/frogger/actors/bg_water.hpp"
+#include "map.hpp"
+#include "actors/bg_water.hpp"
+#include "actors/background.hpp"
+#include "actors/obstacle.hpp"
+#include "../engine/draw_manager.hpp"
+#include "../engine/physics_manager.hpp"
+#include "../engine/texture_manager.hpp"
+#include "../engine/update_manager.hpp"
 
 #define TEXTURE_FROG        0
 #define TEXTURE_ROAD        1

@@ -1,4 +1,4 @@
-#include "../src/frogger/game.hpp"
+#include "frogger/game.hpp"
 
 int main()
 {

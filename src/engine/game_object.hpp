@@ -1,7 +1,7 @@
 #ifndef ENGINE_GAME_OBJECT
 #define ENGINE_GAME_OBJECT
 
-#include "../src/math/vector2.hpp"
+#include "../math/vector2.hpp"
 
 namespace engine
 {

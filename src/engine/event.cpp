@@ -1,4 +1,4 @@
-#include "../src/engine/event.hpp"
+#include "event.hpp"
 
 namespace engine
 {

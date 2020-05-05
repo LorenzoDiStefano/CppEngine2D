@@ -20,7 +20,6 @@ set(FROGGER_HEADERS
 	"src/engine/gfx/image_info.hpp"
 	"src/engine/gfx/renderer.hpp"
 	"src/engine/gfx/sprite.hpp"
-	"src/engine/gfx/surface.hpp"
 	"src/engine/gfx/texture.hpp"
 	##physics folder
 	"src/engine/physics/bounding_box.hpp"

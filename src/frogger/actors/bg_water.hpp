@@ -1,7 +1,8 @@
 #ifndef FROGGER_BG_WATER
 #define FROGGER_BG_WATER
 
-#include "../src/frogger/actors/background.hpp"
+#include "background.hpp"
+#include "../../engine/physics/rigid_body.hpp"
 
 namespace frogger
 {

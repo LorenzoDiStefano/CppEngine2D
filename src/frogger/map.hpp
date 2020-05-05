@@ -1,15 +1,19 @@
 #ifndef FROGGER_MAP
 #define FROGGER_MAP
 
-#include "../src/frogger/actors/background.hpp"
-#include "../src/frogger/actors/obstacle.hpp"
-#include "../src/engine/draw_manager.hpp"
-#include "../src/engine/physics_manager.hpp"
-#include "../src/engine/texture_manager.hpp"
-#include "../src/engine/update_manager.hpp"
+namespace engine
+{
+	class draw_manager;
+	class texture_manager;
+	class physics_manager;
+	class update_manager;
+}
 
 namespace frogger
 {
+	struct obstacle;
+	struct background;
+	
 	struct map
 	{
 		background* backgrounds[11];

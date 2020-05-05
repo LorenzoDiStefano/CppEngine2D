@@ -1,4 +1,5 @@
-#include "../src/frogger/actors/background.hpp"
+#include "background.hpp"
+#include "../../engine/draw_manager.hpp"
 
 namespace frogger
 {

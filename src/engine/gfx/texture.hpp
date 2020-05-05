@@ -1,14 +1,15 @@
 #ifndef ENGINE_TEXTURE
 #define ENGINE_TEXTURE
 
-#include "../src/utilities/types.hpp"
-#include "../src/engine/gfx/renderer.hpp"
+#include "../../utilities/types.hpp"
 #include <cstdint>
 
 namespace engine
 {
 	namespace gfx
 	{
+		struct my_renderer;
+
 		struct texture
 		{
 		//private:

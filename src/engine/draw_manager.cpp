@@ -1,4 +1,5 @@
-#include "../src/engine/draw_manager.hpp"
+#include "draw_manager.hpp"
+#include "game_object.hpp"
 
 namespace engine
 {
